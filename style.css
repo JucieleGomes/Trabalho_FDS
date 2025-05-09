@@ -1,0 +1,129 @@
+body {
+    background: rgb(239, 239, 250);
+    margin: 30px 100px 40px;
+}
+
+h1 {
+    color: rgb(92, 54, 141);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.about-me {
+    color: rgb(14, 36, 83);
+    text-align: justify;
+    font-size: 24px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+
+.hobbies-list li {
+    margin-bottom: 30px;
+    align-content: center;
+    color: rgb(114, 22, 67);
+    width: 100%;
+}
+
+.images-container img {
+    display: inline;
+    width: 250px;
+    height: 175px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+td img {
+    width: 250px;
+    height: 130px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+td img:hover {
+    width: 500px;
+    height: 300px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+tr,
+td {
+    border: 1px solid rgb(59, 25, 138);
+    padding: 10px;
+    text-align: center;
+    color: rgb(114, 22, 67);
+    font-size: 20px;
+}
+
+a {
+    color: rgb(73, 73, 122);
+    font-weight: 700;
+}
+
+a:hover {
+    color: blue;
+}
+
+div {
+    margin-bottom: 50px;
+
+    span {
+        color: rgb(114, 22, 67);
+        font-size: 20px;
+    }
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: rgb(177, 19, 111);
+    background-color: rgb(238, 184, 191);
+    margin-bottom: 40px;
+    color: rgb(92, 20, 55);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(207, 135, 144);
+}
+
+h3 {
+    color: rgb(177, 19, 111);
+}
+
+.message-container {
+    display: none;
+    width: 90%;
+    background-color: rgb(233, 217, 219);
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.message {
+    font-size: 20px;
+    color: rgb(114, 22, 67);
+    text-align: center;
+}
